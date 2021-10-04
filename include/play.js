@@ -346,7 +346,7 @@ module.exports = {
           let lyrics = null;
           let temEmbed = new MessageEmbed()
           .setAuthor("Searching...", "https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif").setFooter("Lyrics")
-          .setColor("#146DF6")
+          .setColor("RED")
           let result = await message.channel.send(temEmbed)
           try {
             lyrics = await lyricsFinder(queue.songs[0].title,"");
