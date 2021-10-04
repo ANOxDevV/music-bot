@@ -10,7 +10,7 @@ module.exports = {
     //define the EMBED
     let resultsEmbed = new MessageEmbed()
       .setTitle("❗️ | You need join voice to request this command")
-      .setColor("#ff0e7a")
+      .setColor("YELLOW")
     //wenn memberchannel nicht der botchannel ist
     if (member.voice.channel !== member.guild.me.voice.channel) {
     //Send the message to the MEMBER
