@@ -40,7 +40,7 @@ module.exports = {
 [support](https://discord.gg/VWuQfQfjc9)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=814608707412295780&permissions=8&scope=bot)`)
 
  //  .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("RANDOM");
+   .setColor("YELLOW");
    message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
