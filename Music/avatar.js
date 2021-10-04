@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-const Color = `#FF0000`;
+const Color = `BLUE`;
 
 
 module.exports = {
